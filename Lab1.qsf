@@ -54,4 +54,18 @@ set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_RO
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name QSYS_FILE lab1.qsys
 set_global_assignment -name VHDL_FILE lab1/lab1_inst.vhd
+set_location_assignment PIN_C12 -to pio_0_external_connection_export[3]
+set_location_assignment PIN_D12 -to pio_0_external_connection_export[2]
+set_location_assignment PIN_C11 -to pio_0_external_connection_export[1]
+set_location_assignment PIN_C10 -to pio_0_external_connection_export[0]
+set_location_assignment PIN_D14 -to pio_1_external_connection_export[7]
+set_location_assignment PIN_E14 -to pio_1_external_connection_export[6]
+set_location_assignment PIN_C13 -to pio_1_external_connection_export[5]
+set_location_assignment PIN_D13 -to pio_1_external_connection_export[4]
+set_location_assignment PIN_B10 -to pio_1_external_connection_export[3]
+set_location_assignment PIN_A9 -to pio_1_external_connection_export[1]
+set_location_assignment PIN_A8 -to pio_1_external_connection_export[0]
+set_location_assignment PIN_A10 -to pio_1_external_connection_export[2]
+set_location_assignment PIN_B8 -to reset_reset_n
+set_location_assignment PIN_N5 -to clk_clk
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
